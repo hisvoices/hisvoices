@@ -28,7 +28,32 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+</style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -94,9 +119,25 @@
                 <iframe src="https://player.vimeo.com/video/200291008" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
                 
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <h2>Let us send you updates about the project, including special screenings, and more.</h2>
+
+<div>
+  <form name="rm_signup_form" id="rm_signup_form" class="form-container" onsubmit="loadDoc('rm_signup_form'); return false;">
+        <label class="form-title"><span class="required" title="Required Field"></span> </label>
+        <input class="form-field" type="text" id="email"  required placeholder="Email (required)"/><br />
+        <label class="form-title"><span class="required" title="Required Field"></span> </label>
+        <input class="form-field" type="text" id="first_name"  placeholder="First Name"/><br />
+        <label class="form-title"><span class="required" title="Required Field"></span> </label>
+        <input class="form-field" type="text" id="last_name"  placeholder="Last Name" /><br />
+        <label class="form-title"></label>
+        <input class="form-field" type="text" id="mobile" placeholder="Mobile Number" /><br />
+  
+
+<div class="submit-container">
+            <input type="submit" class="submit-button" value="Send Me Updates"/>
+        </div>
+  </form>
+</div>
             </div>
         </div>
     </section>
