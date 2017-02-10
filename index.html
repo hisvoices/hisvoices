@@ -124,9 +124,15 @@ input[type=submit]:hover {
 
 <div class="row" >
   <script type="text/javascript" src="https://ui.reachmail.net/api/lists/SubscriptionForm/optin/dynamic/noredirect/8b6e4619-85ea-4824-b701-a70a012518eb"></script>
-  <div class="col-xs-2"></div>
+  <div class="col-md-12"></div>
   <div class="col-xs-8" style="background:darkgray">
     <span style="font-size:1.2em;color:#000;font-style:bold">Let us send you updates,<br> including special screenings, and more.</span>
+    <form class="form-inline signup" role="form">
+    <div class="form-group">
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+					  </div>
+					  <button type="submit" class="btn btn-theme">Get notified!</button>
+					</form>		
     <form name="rm_signup_form" id="rm_signup_form" class="form-container" onsubmit="loadDoc('rm_signup_form'); return false;">
       <div class="form-group">
       <input class="form-control form-field" type="text" id="email" color:#000 required placeholder="Email (required)"/>
