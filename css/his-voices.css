@@ -247,7 +247,8 @@ a:hover {
 }
 
 .content-section {
-    padding-top: 80px
+    padding-top: 80px;
+  background-color:black;
 }
 
 .download-section {
