@@ -138,7 +138,7 @@ a:hover {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         background: #000;
-        border-bottom: 1px solid rgba(255, 255, 255, .3)
+        /*"border-bottom: 1px solid rgba(255, 255, 255, .3)*/
     }
 }
 
