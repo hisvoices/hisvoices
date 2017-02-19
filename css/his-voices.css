@@ -386,7 +386,7 @@ img::-moz-selection {
 }
 form.signup input  {
 	height: 42px;
-	width: 250px !important;
+	/*width: 250px !important;*/
 	border-radius: 0;
 	border: none;
 }
