@@ -75,7 +75,7 @@ a:hover {
 
 .navbar-custom .navbar-toggle {
     color: #fff;
-    background-color: rgba(255, 255, 255, .2);
+    /*background-color: rgba(255, 255, 255, .2);*/
     font-size: 16px
 }
 
@@ -396,10 +396,6 @@ form.signup button.btnn {
 form.signup input.form-control:focus {
 	border-color: #fd680e;
 }
-
-
-
-
 
 .team-member {
     text-align: center;
